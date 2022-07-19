@@ -1,0 +1,145 @@
+*
+{
+  box-sizing: border-box;
+}
+/* ================ */
+/* ===== BODY ===== */
+/* ================ */
+.body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.container
+{
+  max-width: 1200px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* ==================== */
+/* ==== SITE HEADER === */
+/* ==================== */
+.site-header
+{
+  background-color: rgba(246, 246, 246, 1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-header-container
+{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.site-logo
+{
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(114, 150, 238, 1);
+  text-transform: uppercase;
+  padding: 8px 6px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  margin-right: 35px;
+}
+.currency
+{
+  display: flex;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style: none;
+  color: rgba(85, 85, 85, 1);
+  padding: 0;
+  margin: 0;
+}
+.currency-type
+{
+  color: rgba(41, 89, 206, 1);
+}
+.currency-list:not(:last-child)
+{
+  margin-right: 25px;
+}
+.search
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(85, 85, 85, 1);
+  margin-left: 247px;
+}
+.language-changer
+{
+  padding-top: 12px;
+  padding-right: 13px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  border-radius: 39px;
+  background-color: rgba(220, 230, 255, 1);
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.uz
+{
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:  rgba(0, 0, 0, 1);
+  padding: 9px 7px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.ru
+{
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(166, 166, 166, 1);
+  text-decoration: none;
+}
+.main-link
+{
+padding: 13px 20px;
+border-radius: 10px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+background-color: rgba(114, 150, 236, 1);
+text-decoration: none;
+color: rgba(255, 255, 255, 1);
+}
