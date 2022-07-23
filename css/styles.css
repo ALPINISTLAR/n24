@@ -66,6 +66,14 @@ html
   border-radius: 7px;
   margin-right: 35px;
 }
+.site-logo:hover
+{
+  opacity: 0.8;
+}
+.site-logo:active
+{
+  opacity: 0.6;
+}
 .currency
 {
   display: flex;
