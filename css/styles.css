@@ -22,7 +22,7 @@ html
 }
 *:focus
 {
-   outline: 2px dotted #7296EE;
+  outline: 2px dotted #7296EE;
 }
 .container
 {
@@ -36,17 +36,19 @@ html
 /* ==================== */
 /* ==== SITE HEADER === */
 /* ==================== */
-.site-header
+.site-header-top
 {
   background-color: rgba(246, 246, 246, 1);
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 10px;
 }
-.site-header-container
+.site-header-top-container
 {
   display: flex;
   align-items: center;
 }
+
 .site-logo
 {
   font-family: Rubik;
@@ -97,7 +99,7 @@ html
 /* ========== SEARCH ============ */
 .search-form
 {
-margin-right: 25px;
+  margin-right: 25px;
 }
 .search-form-input
 {
@@ -162,29 +164,33 @@ margin-right: 25px;
   opacity: 0.6;
 }
 
-/* ==================== */
-/* ==== SITE HERO   === */
-/* ==================== */
+/* ========= SITE NAV ========== */
 .site-nav
 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0;
   margin: 0;
-  padding-top: 30px;
-  margin-bottom: 20px;
   flex-wrap: wrap;
+  border-bottom: 1px solid rgba(209, 209, 209, 1);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 40px;
 }
 .site-nav-item
 {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0em;
+  line-height: normal;
   text-align: center;
   list-style: none;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.site-nav-item:not(:last-child)
+{
+  margin-right: 33px;
 }
 .site-nav-link
 {
@@ -199,19 +205,14 @@ margin-right: 25px;
 {
   opacity: 0.6;
 }
-.site-hero-line
-{
-  padding: 0;
-  margin: 0;
-  margin-bottom: 40px;
-  color: rgba(209, 209, 209, 1);
-  height: 1px;
-}
-.site-hero-img
+/* ========= SITE HEADER BANNER =========== */
+.site-header-banner-link
 {
   display: flex;
-  border-radius: 8px;
 }
+/* ==================== */
+/* ==== SITE HERO   === */
+/* ==================== */
 
 /* ====== NEWS ======= */
 .site-hero-content
