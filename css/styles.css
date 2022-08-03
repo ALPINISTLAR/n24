@@ -51,7 +51,8 @@ body
 }
 .button-primary
 {
-
+  background-color: #7296EE;
+  color: #FFFFFF;
 }
 .button-orange
 {
@@ -67,6 +68,14 @@ body
 {
   padding: 17px;
 }
+.button-forward
+{
+  background-color: #7296EE;
+  color: #FFFFFF;
+}
+/* =============================================== */
+/* ================= CONTAINER =================== */
+/* =============================================== */
 .container
 {
   max-width: 1240px;
@@ -567,7 +576,6 @@ body
   padding: 0;
   max-width: 998px;
   width: 100%;
-  /* border: 3px solid green; */
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -722,10 +730,23 @@ body
   align-items:center;
   justify-content: space-between;
   margin: 60px 75px;
-  background-color:burlywood;
+  background-image: url(../img/notification-bac-img.jpg);
   padding: 25px 70px 25px 25px;
   border-radius: 10px;
 }
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+.notification-cta
+{
+  background-image: url(../img/notification-bac-img@2x.jpg);
+}
+}
+
 .notification-cta-text
 {
   font-family: Rubik;
@@ -796,4 +817,119 @@ body
 {
   display: flex;
   margin-bottom: 100px;
+}
+/* **************************************** */
+/* *********** CONTACTS FORM ************** */
+/* **************************************** */
+.contacts-main-box
+{
+  display: flex;
+  margin-bottom: 100px;
+}
+.contacts-form
+{
+  flex-wrap: wrap;
+  width: 696px;
+  margin-right: 10px;
+}
+.contacts-form-heading
+{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  color: #000000;
+}
+.contacts-form-input
+{
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color:  #000000 opacity 0.5;
+  padding: 18px 20px;
+  margin-right: 0;
+  resize: none;
+}
+.contacts-form-input:first-child
+{
+  margin-right: 10px;
+}
+.contacts-form-horizontal-box
+{
+  display: flex;
+  margin-bottom: 10px;
+}
+.contacts-form-vertical-box
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.contacts-form-input-vertical:first-child
+{
+  margin-bottom: 10px;
+}
+.contacts-form-input-vertical:last-child
+{
+  height: 180px;
+  resize: none;
+  box-sizing: border-box;
+}
+.button-forward-wrapper
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts-list
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contacts-list-card
+{
+  max-width: 494px;
+  width: 100%;
+  background-color: #F6F6F6;
+  color: #000000;
+  padding: 37px 25px;
+  border-radius: 15px;
+  margin-top: 48px;
+  margin-bottom: 73px;
+}
+.contacts-list-card-item
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contacts-list-card-item:first-child
+{
+  padding-top: 0;
+}
+.contacts-list-card-item:last-child
+{
+  padding-bottom: 0;
+}
+.contacts-list-card-item:not(:last-child)
+{
+  border-bottom: 1px solid  #D2D2D2;
+}
+.contacts-list-card-title
+{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+.contacts-info
+{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000000;
 }

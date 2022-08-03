@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/styles.css">
 <body>
-<!-- ======================= -->
+  <!-- ======================= -->
   <!-- ===== SITE HEADER ===== -->
   <!-- ======================= -->
   <header class="site-header">
@@ -45,8 +45,8 @@
     <div class="container">
       <nav>
         <ul class="site-nav">
-          <li class="site-nav-item"><a class="site-nav-link" href="#">Главное</a></li>
-          <li class="site-nav-item"><a class="site-nav-link" href="#">Интересное</a></li>
+          <li class="site-nav-item"><a class="site-nav-link" href="index.html">Главное</a></li>
+          <li class="site-nav-item"><a class="site-nav-link" href="list.html">Интересное</a></li>
           <li class="site-nav-item"><a class="site-nav-link" href="#">Экономика</a></li>
           <li class="site-nav-item"><a class="site-nav-link" href="#">Политика</a></li>
           <li class="site-nav-item"><a class="site-nav-link" href="#">Общество</a></li>
@@ -63,8 +63,47 @@
   <!-- ======================= -->
   <!-- ==== MAIN CONTENT ===== -->
   <!-- ======================= -->
-  <main class="main-content"></main>
+  <main class="main-content">
+    <div class="container">
+      <div class="contacts-main-box">
+        <form action="https://echo.htmlacademy.ru" class="contacts-form" method="get">
+          <h2 class="contacts-form-heading">Напишите нам</h2>
+          <div class="contacts-form-horizontal-box">
+            <input class="contacts-form-input" type="text" name="username" placeholder="Имя" aria-label="Имя" required>
+            <input class="contacts-form-input" type="tel" name="telephone number"  placeholder="Номер телефона" aria-label="Номер телефона" required>
+          </div>
+          <div class="contacts-form-vertical-box">
+            <input class="contacts-form-input contacts-form-input-vertical" type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+          <textarea class="contacts-form-input contacts-form-input-vertical" type="text" placeholder="Текст" name="text" aria-label="Текст" required></textarea>
+          </div>
+          <div class="button-forward-wrapper"><button class="button button-forward" type="submit">Отправить</button></div>
+        </form>
 
+        <!-- =========== CONTACTS LIST =============== -->
+        <section class="contacts-list-card">
+          <ul class="contacts-list">
+            <!-- ======== contact list 1 ====== -->
+            <li class="contacts-list-card-item">
+              <h3 class="contacts-list-card-title">Электронная почта</h3>
+                <span class="contacts-info">info@namanganliklar24.uz</span>
+            </li>
+            <!-- ======== contact list 2 ====== -->
+            <li class="contacts-list-card-item">
+              <h3 class="contacts-list-card-title">Номер телефона</h3>
+                <span class="contacts-info">+998 88 522-54-76</span>
+            </li>
+            <!-- ======== contact list 3 ====== -->
+            <li class="contacts-list-card-item">
+              <h3 class="contacts-list-card-title">Адрес</h3>
+                <span class="contacts-info">Ташкент, площадь Мустакиллик, 6 </span>
+            </li>
+          </ul>
+        </section>
+
+
+      </div>
+    </div>
+  </main>
   <!-- ***************************** -->
   <!-- ======== SITE FOOTER ======== -->
   <!-- ***************************** -->
