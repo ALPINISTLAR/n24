@@ -218,7 +218,10 @@ body
 }
 
 /* ========= SITE NAV ========== */
-.site-nav
+.site-nav{
+  margin-bottom: 40px;
+}
+.site-nav-list
 {
   display: flex;
   align-items: center;
@@ -228,9 +231,9 @@ body
   border-bottom: 1px solid rgba(209, 209, 209, 1);
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-bottom: 40px;
+
 }
-.site-nav-item
+.site-nav-list-item
 {
   font-family: Rubik;
   font-size: 18px;
