@@ -787,6 +787,8 @@ only screen and (                min-resolution: 2dppx) {
 {
   /* margin-top: auto; */
   background-color: rgba(114, 151, 239, 1);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .site-footer *:focus
 {
@@ -797,8 +799,6 @@ only screen and (                min-resolution: 2dppx) {
   padding: 0;
   max-width: 998px;
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .site-footer-logo
