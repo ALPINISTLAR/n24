@@ -1,3 +1,7 @@
+:root
+{
+  --accent-color: #7296EE;
+}
 *
 {
   box-sizing: border-box;
@@ -24,7 +28,7 @@ body
 }
 *:focus
 {
-  outline: 2px dotted #7296EE;
+  outline: 2px dotted var(--accent-color);
   outline-offset: 3px;
 }
 
@@ -52,7 +56,7 @@ body
 }
 .button-primary
 {
-  background-color: #7296EE;
+  background-color: var(--accent-color);
   color: #FFFFFF;
 }
 .button-orange
@@ -71,7 +75,7 @@ body
 }
 .button-forward
 {
-  background-color: #7296EE;
+  background-color: var(--accent-color);
   color: #FFFFFF;
 }
 /* =============================================== */
@@ -112,7 +116,7 @@ body
   letter-spacing: 0em;
   text-align: left;
   text-decoration: none;
-  color: rgba(114, 150, 238, 1);
+  color: var(--accent-color);
   text-transform: uppercase;
   padding: 8px 6px;
   background-color: rgba(255, 255, 255, 1);
@@ -209,7 +213,7 @@ body
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-  background-color: rgba(114, 150, 236, 1);
+  background-color: var(--accent-color);
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
 }
@@ -259,7 +263,7 @@ body
 }
 .site-nav-link:hover
 {
-  color: #7296EE;
+  color: var(--accent-color);
 }
 .site-nav-link:active
 {
@@ -289,7 +293,6 @@ body
 {
   display: flex;
   flex-wrap: wrap;
-  /* border: 1px solid blue; */
   margin-left: -10px;
 }
 .news-grid-item
@@ -324,7 +327,7 @@ body
 }
 .article-card-link:hover
 {
-  color: #7296EE;
+  color: var(--accent-color);
 }
 .article-card-link:active
 {
@@ -426,7 +429,7 @@ body
 }
 .global-news-article-title-link:hover
 {
-  color: #7296EE;
+  color: var(--accent-color);;
 }
 .global-news-article-title-link:active
 {
@@ -539,7 +542,7 @@ body
 }
 .sitebar-news-card-link:hover
 {
-  color: #7296EE;
+  color: var(--accent-color);
 }
 .sitebar-news-card-link:active
 {
@@ -791,7 +794,7 @@ only screen and (                min-resolution: 2dppx) {
 .site-footer
 {
   /* margin-top: auto; */
-  background-color: rgba(114, 151, 239, 1);
+  background-color: var(--accent-color);
   padding-top: 40px;
   padding-bottom: 40px;
 }
